@@ -1,11 +1,15 @@
 function verificar(){
   var data = new Date()
-  var ano = data.getFullYear() //usa o ano atual para calcular a idade
-  var fano = document.getElementById('textano')
-  var resultado = document.querySelector('div#resultado')
+  var ano = data.getFullYear() 
+  //usa o ano atual para calcular a idade
+  var fano = 
+  document.getElementById('textano')
+  var resultado 
+  = document.querySelector('div#resultado')
 
-if (fano.value.length == 0 || Number(fano.value) > ano){
-    window.alert('verifique novamente')
+if (fano.value.length
+   == 0 || Number(fano.value) > ano){
+   window.alert('verifique novamente')
 
 }else{
     var fsex = document.getElementsByName('radsex')
@@ -53,7 +57,8 @@ if (fano.value.length == 0 || Number(fano.value) > ano){
         }
     }
     resultado.style.textAlign = 'center'
-    resultado.innerHTML =`Detectamos ${genero} com ${idade} anos`
+    resultado.innerHTML =
+    `Detectamos ${genero} com ${idade} anos`
     resultado.appendChild(img)
     }
     
