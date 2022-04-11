@@ -6,7 +6,7 @@ Link do projeto:
 
 Código em Javascript: 
 <div> 
-<img src="https://github.com/Deivison1/verificando-idade-sexo.js/blob/main/code-js.png"alt="" width="700" height="500">
+<img src="https://github.com/Deivison1/verificando-idade-sexo.js/blob/main/code-js.png"alt="" width="700" height="700">
 </div>
 
 
