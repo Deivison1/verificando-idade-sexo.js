@@ -1,6 +1,6 @@
 function verificar(){
   var data = new Date()
-  var ano = data.getFullYear()
+  var ano = data.getFullYear() //usa o ano atual para calcular a idade
   var fano = document.getElementById('textano')
   var resultado = document.querySelector('div#resultado')
 
