@@ -36,13 +36,26 @@ footer{
     margin-top: 10px;
    
 }
+footer > p{
+    color: black;
+}
 footer >  a{
-    color: white;
+    font-size: 30px;
     padding-left: 5px;
     text-decoration: none;
-    
 }
 
+.bxl-github{
+    color: black;
+}
+.bxl-linkedin-square{
+    color: #2797CF;
+    border-radius: 50%;
+}
+.bxl:hover{
+    color: azure;
+    transition: 0.3s;
+}
 
 
 
